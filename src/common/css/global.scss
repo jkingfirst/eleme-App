@@ -1,0 +1,19 @@
+html,body{
+  font-weight:200;
+  line-height: 1;
+  font-family: "Arial" , "Microsoft YaHei UI" ;
+}
+@import "font.css";
+@media (min-device-pixel-ratio: 1.5),(-webkit-min-device-pixel-ratio: 1.5){
+  .border-1px:after{
+        -webkit-transfom:scaleY(0.7);
+    transform:scaleY(0.7);
+  }
+}
+@media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2){
+  .border-1px:after{
+    transform: scaleY(0.5);
+    -webkit-transform:scaleY(0.5)
+  }
+}
+
